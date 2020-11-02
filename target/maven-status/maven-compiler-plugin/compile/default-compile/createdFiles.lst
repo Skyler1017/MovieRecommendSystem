@@ -1,0 +1,14 @@
+bigdata/ScoreAverage.class
+MovieRecommend/SimilarUsers.class
+bigdata/ScoreAverage$IntSumReducer.class
+MovieRecommend/AverageScore.class
+bigdata/TestWC$TokenizerMapper.class
+MovieRecommend/AverageScore$TokenizerMapper.class
+MovieRecommend/Recommend.class
+bigdata/TestWC.class
+bigdata/ScoreAverage$TokenizerMapper.class
+MovieRecommend/ClosrUsers.class
+MovieRecommend/PreProcess.class
+MovieRecommend/CloseMovies.class
+MovieRecommend/AverageScore$FloatReducer.class
+bigdata/TestWC$IntSumReducer.class

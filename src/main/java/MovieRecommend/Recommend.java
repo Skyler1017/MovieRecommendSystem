@@ -28,7 +28,7 @@ public class Recommend {
         job.setMapperClass(AverageScore.TokenizerMapper.class);
         job.setReducerClass(AverageScore.FloatReducer.class);
         job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(IntWritable.class);
+        job.setMapOutputValueClass(FloatWritable.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(FloatWritable.class);
 

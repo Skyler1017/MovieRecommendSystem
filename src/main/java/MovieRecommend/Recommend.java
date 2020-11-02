@@ -18,10 +18,6 @@ public class Recommend {
 
     }
 
-    public static void scaleScores(){
-
-    }
-
     public static void getHotMovies() throws IOException, ClassNotFoundException, InterruptedException {
         Job job = Job.getInstance(conf, "Score Average");
         job.setJarByClass(AverageScore.class);
@@ -59,7 +55,6 @@ public class Recommend {
     public static void main(String args[]) throws Exception {
         conf.addResource("./core-site.xml");
         preprocess();
-        scaleScores();
         getHotMovies();
         getSimilarUsers();
         getCloseUsers();

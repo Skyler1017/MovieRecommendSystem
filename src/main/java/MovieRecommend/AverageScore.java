@@ -1,6 +1,6 @@
 package MovieRecommend;
 
-/* Scale分数，并统计最热门的电影 */
+/* 根据Scale后的分数统计最热门的电影 */
 /* userId,movieId,rating,timestamp */
 
 import org.apache.hadoop.io.FloatWritable;
